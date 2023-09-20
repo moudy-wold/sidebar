@@ -2,11 +2,9 @@
 let sidbar = document.querySelector(".sidebar")
 let sectionsLink = document.querySelector(".sidebar ul")
 let socialElement  =  document.querySelector(".social-icons")
-let openClose  =  document.querySelector(".open-close")
 
-openClose.addEventListener("click", ()=>{
-sidbar.classList.toggle("open");
-})
+
+
 
 
 const items=[
